@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/backgroundimage"
+    tools:context="com.atrio.quesapp.QuestionAnswerActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/parent_ll">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextColor="@android:color/white"
+                android:background="@color/colorPrimaryDark">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/img_back"
+                    android:src="@drawable/back"/>
+
+                <TextView
+                    android:id="@+id/tv_tittle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text=""
+                    android:padding="10dp"
+                    android:textSize="19sp"
+                    android:gravity="center|bottom"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/parent_ll"
+            android:layout_alignRight="@+id/parent_ll"
+            android:layout_below="@+id/parent_ll"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv_quesstion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/tv_showans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/parent_ll"
+            android:layout_alignStart="@+id/parent_ll"
+            android:layout_below="@+id/tv_quesstion"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="Show Answer" />
+
+        <TextView
+            android:id="@+id/tv_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/parent_ll"
+            android:layout_alignStart="@+id/parent_ll"
+            android:layout_below="@+id/tv_showans"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="" />
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/parent_ll"
+            android:layout_alignRight="@+id/parent_ll"
+            android:layout_below="@+id/tv_answer"
+            android:layout_marginTop="30dp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent" />
+
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bt_next"
+            android:layout_toRightOf="@+id/bt_next"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_toLeftOf="@+id/bt_next"
+            android:layout_toStartOf="@+id/bt_next"
+            android:background="@color/colorAccent"
+            android:text="Back"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/bt_back"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/tv_showans"
+            android:layout_toRightOf="@+id/tv_showans"
+            android:src="@drawable/home"
+            android:background="@null"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_below="@+id/bt_next"
+        android:src="@drawable/findpage" />
+
+
+</android.support.design.widget.CoordinatorLayout>

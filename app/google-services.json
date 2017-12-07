@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "988740843221",
+    "firebase_url": "https://quesapp-8d043.firebaseio.com",
+    "project_id": "quesapp-8d043",
+    "storage_bucket": "quesapp-8d043.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988740843221:android:e6ce9519ecc4fe66",
+        "android_client_info": {
+          "package_name": "com.atrio.quesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988740843221-7ul52njm6bdmccphuaoen7sahn6b270u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atrio.quesapp",
+            "certificate_hash": "c94620a7a17325188f206cdab7890f8c53f176f0"
+          }
+        },
+        {
+          "client_id": "988740843221-84v0ddo7gfkkm4oj7bvo1m0sujbjmpub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxTWjyBhEeHcxREz9J15JI33tV9GaWBX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988740843221-84v0ddo7gfkkm4oj7bvo1m0sujbjmpub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
