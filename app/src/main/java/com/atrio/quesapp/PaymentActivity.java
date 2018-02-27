@@ -104,7 +104,7 @@ public class PaymentActivity extends AppCompatActivity {
 
     private void generateCheckSum() {
 
-        amt_pay="2000";
+        amt_pay=tv_amount.getText().toString();
         Log.i("Exception3312", amt_pay);
 
         //creating a retrofit object.

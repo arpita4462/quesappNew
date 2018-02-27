@@ -15,6 +15,38 @@
       },
       "oauth_client": [
         {
+          "client_id": "988740843221-1v8h6l0ibqlq3rcmkp2ka5oqc6dheatj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atrio.quesapp",
+            "certificate_hash": "26ab5b7fe879cfb7b6f8ff14a99d7a7b1763e787"
+          }
+        },
+        {
+          "client_id": "988740843221-b444h8oajabhnv2t7mqbtctfuq8k7cpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atrio.quesapp",
+            "certificate_hash": "d4b994ed081c31c9a659acd7d1a8625c6e1d3936"
+          }
+        },
+        {
+          "client_id": "988740843221-nggsst8t2g2s127qc7vgujkpe7c8ta4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atrio.quesapp",
+            "certificate_hash": "d57e267752df241d7c661838854f9fde98c2e7f2"
+          }
+        },
+        {
+          "client_id": "988740843221-b0f2014rffsur7do9k2nh3ra6kfg5ic0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atrio.quesapp",
+            "certificate_hash": "b675c2634d49d49e7ef19d9d98056098c3aa976b"
+          }
+        },
+        {
           "client_id": "988740843221-7ul52njm6bdmccphuaoen7sahn6b270u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
