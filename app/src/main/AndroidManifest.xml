@@ -28,11 +28,7 @@
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SubjectActivity" />
         <activity android:name=".RegistraionActivity" />
@@ -40,7 +36,13 @@
         <activity android:name=".TrialActivity" />
         <activity android:name=".ReasoingActivity" />
         <activity android:name=".SelectLangActivity" />
-        <activity android:name=".PaymentActivity" />
+        <activity android:name=".PaymentActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".SendQuestionActivity" />
         <activity android:name=".QuestionAnswerActivity" />
         <activity android:name=".MultipleChoiceActivity" />
