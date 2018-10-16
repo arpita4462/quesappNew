@@ -15,8 +15,8 @@ import retrofit2.http.POST;
 
 public interface Api {
 
-//    String BASE_URL = "http://192.168.0.156/Paytm_App_Checksum_Kit_PHP-master/generateChecksum.php/";
-    String BASE_URL = "http://54.255.190.5/bringon/web_service/generateChecksum.php/";
+    String BASE_URL = "http://192.168.0.156/Paytm_App_Checksum_Kit_PHP-master/generateChecksum.php/";
+  
 
     @FormUrlEncoded
     @POST("generateChecksum.php")
