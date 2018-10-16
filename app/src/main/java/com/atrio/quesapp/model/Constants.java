@@ -5,7 +5,8 @@ package com.atrio.quesapp.model;
  */
 
 public class Constants {
-    public static String MID = "ATRIOD13361002889196";
+    public static String MID = "Bringo83073493634449";
+//    public static String MID = "ATRIOD13361002889196";
     public static String MercahntKey = "KAia1ujBt&2_sFUe";
     public static String INDUSTRY_TYPE_ID = "Retail";
     public static String CHANNLE_ID = "WAP";
